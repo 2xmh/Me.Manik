@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehedi Hasan Manik | Mechanical Engineering Portfolio</title>
+    <meta name="description" content="Professional portfolio of Mehedi Hasan Manik, Mechanical Engineering student and Researcher.">
+    <!-- Tailwind CSS (CDN allowed for styling efficiency) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-slate-900 font-['Inter'] selection:bg-blue-100 selection:text-blue-900">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-[100] transition-all duration-300 py-5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold shadow-lg shadow-blue-100">M</div>
+                    <span class="text-lg font-bold tracking-tight text-slate-900 hidden sm:block">Mehedi Hasan Manik</span>
+                </div>
+                
+                <div class="hidden xl:flex space-x-6">
+                    <a href="#about" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#education" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Education</a>
+                    <a href="#projects" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Projects</a>
+                    <a href="#research" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Research</a>
+                    <a href="#publications" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Publications</a>
+                    <a href="#skills" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Skills</a>
+                    <a href="#experience" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Experience</a>
+                    <a href="#volunteering" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Volunteering</a>
+                    <a href="#awards" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Awards</a>
+                    <a href="#certifications" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Certificates</a>
+                    <a href="#contact" class="nav-link text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+
+                <div class="xl:hidden">
+                    <button id="menu-toggle" class="text-slate-600 p-2 bg-slate-50 rounded-xl">
+                        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden xl:hidden fixed inset-0 top-[60px] bg-white z-[110] p-8 space-y-4 shadow-xl border-t border-slate-100">
+            <a href="#about" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3 border-b border-slate-50">About</a>
+            <a href="#education" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3 border-b border-slate-50">Education</a>
+            <a href="#projects" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3 border-b border-slate-50">Projects</a>
+            <a href="#publications" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3 border-b border-slate-50">Publications</a>
+            <a href="#experience" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3 border-b border-slate-50">Experience</a>
+            <a href="#contact" class="block text-xs font-black uppercase tracking-widest text-slate-500 py-3">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white scroll-mt-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                <div class="lg:col-span-8">
+                    <span class="inline-flex items-center px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.2em] bg-blue-50 text-blue-700 mb-6 border border-blue-100">
+                        Mechanical Engineering Student & Researcher
+                    </span>
+                    <h1 class="text-5xl tracking-tight font-extrabold text-slate-900 sm:text-6xl md:text-7xl mb-6 leading-[1.1]">
+                        Mehedi Hasan <span class="text-blue-600 italic underline decoration-blue-100 underline-offset-8">Manik</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-3xl border-l-4 border-blue-600 pl-6 py-2 bg-blue-50/20 rounded-r-3xl italic">
+                        A dedicated Mechanical Engineering student at IUBAT, currently contributing as an Associate Research Coordinator at NARP. Actively involved in research activities focused on additive manufacturing, biosensors, and bioelectronics, with publications in reputed journals.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 mb-10">
+                        <a href="https://orcid.org/0009-0003-8240-063X" target="_blank" class="flex items-center gap-2 px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-600 hover:bg-white hover:text-blue-600 hover:shadow-xl transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            <span class="text-xs font-black uppercase tracking-widest">ORCID</span>
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Mehedi-Manik-2" target="_blank" class="flex items-center gap-2 px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-600 hover:bg-white hover:text-blue-600 hover:shadow-xl transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                            <span class="text-xs font-black uppercase tracking-widest">ResearchGate</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/maniklikesbd/" target="_blank" class="flex items-center gap-2 px-5 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-slate-600 hover:bg-white hover:text-blue-600 hover:shadow-xl transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span class="text-xs font-black uppercase tracking-widest">LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-12 lg:mt-0 lg:col-span-4 flex justify-center">
+                    <div class="relative w-full max-w-[360px] p-3 bg-white rounded-[3rem] shadow-2xl overflow-hidden border border-slate-100 group">
+                        <img class="w-full h-auto aspect-[3/4] object-cover rounded-[2.5rem] transition-transform duration-700 group-hover:scale-105" src="https://drive.google.com/uc?id=1A-SJd23hu0b4WG14CP6PJ6IXHCzlFrcU" alt="Mehedi Hasan Manik" onerror="this.src='https://picsum.photos/seed/manik/800/1000'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Education -->
+    <section id="education" class="py-24 bg-slate-50 scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Education History</h2>
+                <div class="w-20 h-1.5 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="p-10 rounded-[3rem] bg-white border border-slate-100 shadow-sm relative overflow-hidden group hover:shadow-xl transition-all">
+                    <span class="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] block mb-4">2022 - Present</span>
+                    <h3 class="text-xl font-black text-slate-900 mb-2 uppercase tracking-tight">IUBAT</h3>
+                    <p class="text-blue-600 font-bold mb-8 text-sm italic text-balance">Bachelor of Science in Mechanical Engineering</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">AutoCAD Mechanical</span><span class="tag">Materials Science</span><span class="tag">IC Engines</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-[3rem] bg-white border border-slate-100 shadow-sm relative overflow-hidden group hover:shadow-xl transition-all">
+                    <span class="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] block mb-4">2017 - 2022</span>
+                    <h3 class="text-xl font-black text-slate-900 mb-2 uppercase tracking-tight">IMT Munshiganj</h3>
+                    <p class="text-blue-600 font-bold mb-8 text-sm italic">Diploma in Shipbuilding Technology</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Arc Welding</span><span class="tag">Welding & Fabrication</span><span class="tag">CAD</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-[3rem] bg-white border border-slate-100 shadow-sm relative overflow-hidden group hover:shadow-xl transition-all">
+                    <span class="text-[10px] font-black text-blue-600 uppercase tracking-[0.2em] block mb-4">2014 - 2017</span>
+                    <h3 class="text-xl font-black text-slate-900 mb-2 uppercase tracking-tight">Ikra Bidya Niketan</h3>
+                    <p class="text-blue-600 font-bold mb-8 text-sm italic">Secondary School Certificate (S.S.C)</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Science Group</span><span class="tag">Physics</span><span class="tag">Mathematics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering Projects -->
+    <section id="projects" class="py-24 bg-white scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Engineering Projects</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group p-10 bg-slate-50 rounded-[3rem] border border-slate-100 hover:bg-white hover:shadow-2xl transition-all">
+                    <div class="flex justify-between items-start mb-8">
+                        <div class="p-4 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                        </div>
+                        <span class="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full tracking-widest">Jan 2026</span>
+                    </div>
+                    <h3 class="text-2xl font-black text-slate-900 mb-4 uppercase tracking-tight">Temperature and Humidity Control System</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-8">Arduino-based environmental monitoring system using DHT22 sensor and OLED display. Threshold-based logic with hysteresis for stable control.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Arduino</span><span class="tag">DHT22</span><span class="tag">Embedded C</span>
+                    </div>
+                </div>
+                <div class="group p-10 bg-slate-50 rounded-[3rem] border border-slate-100 hover:bg-white hover:shadow-2xl transition-all">
+                    <div class="flex justify-between items-start mb-8">
+                        <div class="p-4 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.78 7.78 5.5 5.5 0 0 1 7.78-7.78z"></path><path d="M12 2v2"></path><path d="M7 6 6 7"></path><path d="m19 12 2-2"></path><path d="M22 22 2 2"></path></svg>
+                        </div>
+                        <span class="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full tracking-widest">Jan 2025</span>
+                    </div>
+                    <h3 class="text-2xl font-black text-slate-900 mb-4 uppercase tracking-tight">Smart Automated Lighting System</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-8">Motion (PIR) and light (LDR) based solution. Operates on discrete components to maximize energy efficiency.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">PIR Sensor</span><span class="tag">LDR</span><span class="tag">Electronics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research" class="py-24 bg-slate-50 scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Research Interests</h2>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="interest-item"><div class="dot"></div>Composite materials and sustainable fillers</div>
+                <div class="interest-item"><div class="dot"></div>Energy systems and sustainability</div>
+                <div class="interest-item"><div class="dot"></div>Nanomaterials and 2D materials</div>
+                <div class="interest-item"><div class="dot"></div>Experimental validation and analytical modeling</div>
+                <div class="interest-item"><div class="dot"></div>Review article writing in engineering</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-24 bg-white scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Publications</h2>
+            </div>
+            <div class="space-y-6">
+                <div class="pub-card group">
+                    <div class="flex gap-2 mb-4">
+                        <span class="badge-blue">2025</span>
+                        <span class="badge-slate">SJR Q1 (0.821)</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">Green nanotechnology for implantable biosensors...</h3>
+                    <p class="text-slate-500 text-sm italic mb-4">A Hossain, MH Manik, S Rakib, N Mahmud, S Khan, Z Ahsan, MS Islam, ...</p>
+                    <p class="text-blue-600 font-black text-[10px] uppercase">Biosensors and Bioelectronics: X</p>
+                </div>
+                <div class="pub-card group">
+                    <div class="flex gap-2 mb-4">
+                        <span class="badge-blue">2025</span>
+                        <span class="badge-slate">SJR Q2 (0.519)</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">Additive Manufacturing in Bone Science...</h3>
+                    <p class="text-slate-500 text-sm italic mb-4">MS Chowdhury, MS Oliullah, MZ Hossen, MH Manik, MDA Hurayra, ...</p>
+                    <p class="text-blue-600 font-black text-[10px] uppercase">Medicine in Novel Technology and Devices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-24 bg-slate-50 scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Experience</h2>
+            </div>
+            <div class="space-y-8">
+                <div class="exp-card">
+                    <h3 class="text-xl font-black uppercase text-slate-900 mb-6">NARP – Nayem’s Association for Research & Publication</h3>
+                    <div class="role-item">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="font-bold text-blue-600 italic">Associate Research Coordinator</h4>
+                            <span class="text-[10px] font-black uppercase text-slate-400">Nov 2025 - Present</span>
+                        </div>
+                        <p class="text-slate-600 text-sm">Full-time coordination of research activities and academic initiatives.</p>
+                    </div>
+                    <div class="role-item">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="font-bold text-blue-600 italic">Media & Publication Secretary</h4>
+                            <span class="text-[10px] font-black uppercase text-slate-400">Nov 2024 - Nov 2025</span>
+                        </div>
+                        <p class="text-slate-600 text-sm">Managed social media and update activities to promote research.</p>
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <h3 class="text-xl font-black uppercase text-slate-900 mb-6">IUBAT Mathematics Society (IMS)</h3>
+                    <div class="role-item">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="font-bold text-blue-600 italic">Joint Secretary</h4>
+                            <span class="text-[10px] font-black uppercase text-slate-400">Jun 2025 - Present</span>
+                        </div>
+                        <p class="text-slate-600 text-sm">Organizational management and graphic design of society materials.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24 bg-white scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-slate-900 sm:text-4xl uppercase tracking-[0.1em]">Technical Skills</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-8">
+                    <h4 class="text-xs font-black uppercase tracking-widest text-blue-600 mb-6">Engineering</h4>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="tag">AutoCAD 2D</span><span class="tag">Solidworks</span><span class="tag">3D Modeling</span><span class="tag">Fabrication</span>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h4 class="text-xs font-black uppercase tracking-widest text-blue-600 mb-6">Software</h4>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="tag">MS Office</span><span class="tag">PowerPoint</span><span class="tag">Video Editing</span><span class="tag">Data Entry</span>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h4 class="text-xs font-black uppercase tracking-widest text-blue-600 mb-6">Soft Skills</h4>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="tag">Leadership</span><span class="tag">Problem-solving</span><span class="tag">Technical Writing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="py-24 bg-slate-50 scroll-mt-24 reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-black text-slate-900 uppercase tracking-widest mb-12 text-center">Certifications & Recognitions</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <div class="cert-card">3DSwymer Associate <span class="block text-[8px] opacity-40 mt-1">Dassault Systèmes</span></div>
+                <div class="cert-card">Excellence – SMART CV <span class="block text-[8px] opacity-40 mt-1">Grameenphone</span></div>
+                <div class="cert-card">AutoCAD Training <span class="block text-[8px] opacity-40 mt-1">IUBAT</span></div>
+                <div class="cert-card">Solidworks Cert. <span class="block text-[8px] opacity-40 mt-1">IUBAT</span></div>
+                <div class="cert-card">Cybersecurity Intro <span class="block text-[8px] opacity-40 mt-1">Cisco</span></div>
+                <div class="cert-card">Outstanding Contrib. <span class="block text-[8px] opacity-40 mt-1">NARP</span></div>
+                <div class="cert-card">Fact Checking <span class="block text-[8px] opacity-40 mt-1">Rumor Scanner</span></div>
+                <div class="cert-card">Shipbuilding Diploma <span class="block text-[8px] opacity-40 mt-1">IMT</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact" class="py-24 bg-slate-900 text-white scroll-mt-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-black uppercase mb-8">Let's Connect</h2>
+                    <div class="space-y-4">
+                        <p class="text-slate-400 font-bold tracking-widest uppercase text-xs">Phone: <span class="text-white ml-2">+8801741845221</span></p>
+                        <p class="text-slate-400 font-bold tracking-widest uppercase text-xs">Email: <span class="text-white ml-2">mehedihassanmanik@gmail.com</span></p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <a href="https://www.linkedin.com/in/maniklikesbd/" class="contact-link">LinkedIn</a>
+                    <a href="https://orcid.org/0009-0003-8240-063X" class="contact-link">ORCID</a>
+                    <a href="https://www.facebook.com/maniklikesbd" class="contact-link">Facebook</a>
+                </div>
+            </div>
+            <div class="mt-20 pt-8 border-t border-white/5 text-center text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">
+                &copy; <span id="year"></span> Mehedi Hasan Manik
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
